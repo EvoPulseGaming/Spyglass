@@ -1,5 +1,5 @@
 # Spyglass
-A flexible Discord moderation bot for large communities, written for the Dead Matter community server.
+A flexible Discord moderation bot for large communities.
 
 ## Requirements
 
