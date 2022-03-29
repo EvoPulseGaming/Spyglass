@@ -56,7 +56,7 @@ Open the generated file and set the `Token` to your bot's token:
 "Token": "YourBotTokenHere",
 ```
 
-Everything else can be configured using the bot itself, so I recommend leave to it as is.
+Everything else can be configured using the bot itself, so I recommend to leave it as is.
 
 ## Why don't I see any commands?
 
