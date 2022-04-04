@@ -40,7 +40,8 @@ namespace Spyglass.Services
             }
 
             var self = await e.Guild.GetMemberAsync(_client.CurrentUser.Id);
-            if (!self.Permissions.HasPermission(Permissions.ViewAuditLog))
+            // If we've somehow not found ourselves, leave.
+            if (self == null || !self.Permissions.HasPermission(Permissions.ViewAuditLog))
             {
                 return;
             }
